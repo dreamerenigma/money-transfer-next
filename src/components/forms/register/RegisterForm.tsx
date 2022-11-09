@@ -1,11 +1,13 @@
 import { useForm } from "react-hook-form";
 import { Button } from "../../buttons/Button";
 import { RegisterFormFields } from "../../types/form-fields";
-import styles from './index.module.scss';
 import { FirstNameField } from "./fields/FirstNameField";
 import { LastNameField } from "./fields/LastNameField";
 import { RegisterUserNameField } from "./fields/RegisterUsernameField";
 import { RegisterPasswordField } from "./fields/RegisterPasswordField";
+import styles from './index.module.scss';
+import buttonStyles from '../../../styles/buttons.module.scss';
+import formStyles from '../../../styles/forms.module.scss';
 
 export const RegisterForm = () => {
 	const { 
@@ -19,14 +21,14 @@ export const RegisterForm = () => {
 	};
 
 	return (
-		<form className={styles.form} onSubmit={handleSubmit(onSubmit)}>
-			<div className={styles.nameContainer}>
+		<form className={formStyles.registerModuleForm} onSubmit={handleSubmit(onSubmit)}>
+			<div className={formStyles.formNameContainer}>
 				<FirstNameField register={register} error={errors.firstName} />
 				<LastNameField register={register} error={errors.lastName} />
 			</div>
 			<RegisterUserNameField register={register} error={errors.username} />
 			<RegisterPasswordField register={register} error={errors.password} />
-			<Button className={styles.button}>Create Account</Button>
+			<Button className={buttonStyles.defaultButton}>Create Account</Button>
 		</form>
 	);
 };

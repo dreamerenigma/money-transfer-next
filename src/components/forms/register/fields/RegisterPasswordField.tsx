@@ -8,7 +8,7 @@ type Props = {
 	error?: FieldError;
 };
 
-export const RegisterPasswordField: FC<Props> = ({ register }) => (
+export const RegisterPasswordField: FC<Props> = ({ register, error }) => (
 	<div className={inputStyles.inputContainer}>
 		<div className={inputStyles.inputContainerHeader}>
 			<div className={inputStyles.inputLabel}>
