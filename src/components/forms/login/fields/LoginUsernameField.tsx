@@ -1,4 +1,4 @@
-import inputStyles from '../../../styles/input.module.scss'
+import inputStyles from '../../../../styles/input.module.scss'
 
 export const LoginUsernameField = () => (
 	<div className={inputStyles.inputContainer}>

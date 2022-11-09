@@ -1,6 +1,6 @@
 import { useForm } from "react-hook-form";
 import { Button } from "../../buttons/Button";
-import { RegisterFormFields } from "../../types/form-fields";
+import { RegisterFormFields } from "../../../types/form-fields";
 import { FirstNameField } from "./fields/FirstNameField";
 import { LastNameField } from "./fields/LastNameField";
 import { RegisterUserNameField } from "./fields/RegisterUsernameField";
@@ -21,7 +21,7 @@ export const RegisterForm = () => {
 	};
 
 	return (
-		<form className={formStyles.registerModuleForm} onSubmit={handleSubmit(onSubmit)}>
+		<form className={formStyles.registerLoginForm} onSubmit={handleSubmit(onSubmit)}>
 			<div className={formStyles.formNameContainer}>
 				<FirstNameField register={register} error={errors.firstName} />
 				<LastNameField register={register} error={errors.lastName} />

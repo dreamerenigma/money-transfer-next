@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import { UseFormRegister, FieldError} from 'react-hook-form';
-import { RegisterFormFields } from '../../../types/form-fields';
+import { RegisterFormFields } from '../../../../types/form-fields';
 import inputStyles from '../../../../styles/input.module.scss';
 
 type Props = {

@@ -1,11 +1,11 @@
 import formStyles from '../../../styles/forms.module.scss';
 import buttonStyles from '../../../styles/buttons.module.scss';
 import { Button } from '../../buttons/Button';
-import { LoginPasswordField } from '../login/fields/LoginPasswordField';
-import { LoginUsernameField } from '../login/fields/LoginUsernameField';
+import { LoginPasswordField } from './fields/LoginPasswordField';
+import { LoginUsernameField } from './fields/LoginUsernameField';
 
 export const LoginForm = () => {
-	return <form className={formStyles.form}>
+	return <form className={formStyles.registerLoginForm}>
 		<LoginUsernameField />
 		<LoginPasswordField />
 		<Button className={buttonStyles.defaultButton}>Login</Button>
