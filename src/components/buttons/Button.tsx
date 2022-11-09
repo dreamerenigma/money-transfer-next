@@ -4,7 +4,5 @@ import styles from './index.module.scss';
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {}
 
 export const Button: FC<ButtonProps> = ({ children, ...props }) => (
-	<button {...props} className={styles.button}>
-		{children}
-	</button>
+	<button {...props} >{children}</button>
 );
