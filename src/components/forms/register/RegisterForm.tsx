@@ -5,7 +5,6 @@ import { FirstNameField } from "./fields/FirstNameField";
 import { LastNameField } from "./fields/LastNameField";
 import { RegisterUserNameField } from "./fields/RegisterUsernameField";
 import { RegisterPasswordField } from "./fields/RegisterPasswordField";
-import styles from './index.module.scss';
 import buttonStyles from '../../../styles/buttons.module.scss';
 import formStyles from '../../../styles/forms.module.scss';
 
