@@ -16,6 +16,10 @@ a {
 	box-sizing: border-box;
 }
 
+h1 {
+	margin: 0;
+}
+
 #__next {
 	height: 100%;
 }
