@@ -1,3 +1,7 @@
+import styles from './index.module.scss';
+
 export const NavigationSidebar = () => {
-	return <nav>nav sidebar</nav>;
+	return (
+		<nav className={styles.nav}>nav sidebar</nav>
+	);
 };

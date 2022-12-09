@@ -5,9 +5,11 @@ import { LoginPasswordField } from './fields/LoginPasswordField';
 import { LoginUsernameField } from './fields/LoginUsernameField';
 
 export const LoginForm = () => {
-	return <form className={formStyles.registerLoginForm}>
-		<LoginUsernameField />
-		<LoginPasswordField />
-		<Button className={buttonStyles.defaultButton}>Login</Button>
-	</form>;
+	return (
+		<form className={formStyles.registerLoginForm}>
+			<LoginUsernameField />
+			<LoginPasswordField />
+			<Button className={buttonStyles.defaultButton}>Login</Button>
+		</form>
+	);
 };

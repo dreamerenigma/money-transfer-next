@@ -7,7 +7,6 @@ export const LoginPasswordField = () => (
 				<label htmlFor="password">Password</label>
 			</div>
 		</div>
-		<input className={inputStyles.inputField} id="password" type="password"
-		/>
+		<input className={inputStyles.inputField} id="password" type="password" />
 	</div>
 );
