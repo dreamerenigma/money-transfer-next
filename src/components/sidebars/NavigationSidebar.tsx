@@ -4,4 +4,5 @@ export const NavigationSidebar = () => {
 	return (
 		<nav className={styles.nav}>nav sidebar</nav>
 	);
+	return <nav className={styles.nav}>nav sidebar</nav>;
 };
