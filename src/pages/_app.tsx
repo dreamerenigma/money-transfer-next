@@ -5,5 +5,6 @@ import '@fontsource/inter/600.css';
 import { AppPropsWithLayout } from '../types';
 
 export default function MyApp({ Component, pageProps }: AppPropsWithLayout) {
-	return <Component {...pageProps} />;
+	const getLayout = Component.getLayout ?? ((page) => page);
+	return getLayout(<Component {...pageProps} />);
 }
