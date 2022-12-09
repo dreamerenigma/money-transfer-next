@@ -5,7 +5,7 @@ import { NextPageWithLayout } from "../../types";
 const DashboardPage: NextPageWithLayout = () => {
 	return (
 		<>
-			<div>dashboard</div>;
+			<div>dashboard</div>
 		</>
 	);
 };
