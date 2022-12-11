@@ -1,6 +1,5 @@
 .card {
 	background-color: #181818;
-	width: 100%;
 	display: flex;
 	flex-direction: column;
 	gap: 36px;
@@ -9,6 +8,7 @@
 		margin: 0;
 		font-weight: 500;
 	}
+	border-radius: 10px;
 }
 
 .balanceText {

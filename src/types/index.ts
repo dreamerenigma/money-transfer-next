@@ -22,8 +22,8 @@ export type NavigationItem = {
 };
 
 
-export type MockPaymentMerthodType = {
+export type MockPaymentMethodType = {
 	type: string;
 	last4: string;
 	name: string;
-}
+};

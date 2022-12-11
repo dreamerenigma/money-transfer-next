@@ -1,6 +1,6 @@
 import { ReactElement } from "react";
 import { DashboardInformation } from "../../components/dashboard/info/DashboardInformation";
-import { PaymentMethodContainer } from "../../components/dashboard/pyment-methods/PaymentMethodContainer";
+import { PaymentMethodContainer } from "../../components/dashboard/payment-methods/PaymentMethodContainer";
 import { DashboardLayout } from "../../components/layouts/DashboardLayout";
 import { NextPageWithLayout } from "../../types";
 import styles from './index.module.scss';
